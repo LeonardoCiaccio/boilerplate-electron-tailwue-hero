@@ -1,4 +1,4 @@
-# Vue 3, Tailwind CSS, and Heroicons Boilerplate
+# Electron,Vue 3, Tailwind CSS, and Heroicons Boilerplate
 
 A ready-to-use boilerplate for Vue 3 projects with:
 
@@ -17,32 +17,17 @@ This boilerplate lets you quickly start new Vue 3 projects with:
 
 ## Getting Started
 
-1. Clone the repository:
-
-   To clone into a new folder:
+1. Clone the repository and set up the project:
 
    ```bash
-   git clone https://github.com/LeonardoCiaccio/boilerplate-tailwue-hero.git
-   cd boilerplate-tailwue-hero
+   git clone https://github.com/LeonardoCiaccio/boilerplate-electron-tailwue-hero .
+   # Remove git history
+   # --> Remove-Item -Recurse -Force .git
+   npm install
+   npm update
+   npm run build
+   npm run electron-start
    ```
-
-   To clone into the current folder:
-
-   ```bash
-   git clone https://github.com/LeonardoCiaccio/boilerplate-tailwue-hero.git .
-   ```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start development server:
-
-```bash
-npm run dev
-```
 
 ## Project Structure
 
